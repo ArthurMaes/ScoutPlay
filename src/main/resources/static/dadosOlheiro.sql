@@ -1,0 +1,7 @@
+CREATE TABLE IF NOT EXISTS olheiros (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nome VARCHAR(100) NOT NULL,
+    data_nascimento DATE NOT NULL,
+    clube VARCHAR(100) NOT NULL,
+    local VARCHAR(100) NOT NULL
+);
